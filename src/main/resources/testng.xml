@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Alist Test Suite" parallel = "false">
+<listeners>
+<listener class-name = "com.alist.qa.listeners.Listeners"/>
+</listeners>
+  <test  name="Login Test Cases" >
+  <classes>
+  	<class name = "com.alist.qa.testcases.LoginTest"  ></class>
+  	<class name = "com.alist.qa.testcases.DashboardTest" ></class>
+  	<class name = "com.alist.qa.testcases.FormatsTest" ></class>
+  	<class name = "com.alist.qa.testcases.FormatDetailsTest" ></class>
+  	<class name = "com.alist.qa.testcases.UserManagementTest" ></class>
+  	
+  </classes>
+  </test>
+  
+  
+</suite> <!-- Suite -->

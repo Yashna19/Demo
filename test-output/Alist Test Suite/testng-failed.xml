@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Alist Test Suite]">
+  <listeners>
+    <listener class-name="com.alist.qa.listeners.Listeners"/>
+  </listeners>
+  <test name="Login Test Cases(failed)">
+    <classes>
+      <class name="com.alist.qa.testcases.UserManagementTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="checkDashboardUsersTest"/>
+          <include name="checkAddUserValidationMessagesTest"/>
+          <include name="checkAddUserMandatoryFieldsTest"/>
+        </methods>
+      </class> <!-- com.alist.qa.testcases.UserManagementTest -->
+    </classes>
+  </test> <!-- Login Test Cases(failed) -->
+</suite> <!-- Failed suite [Alist Test Suite] -->
