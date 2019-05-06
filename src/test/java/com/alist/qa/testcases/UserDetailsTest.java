@@ -1,6 +1,8 @@
 package com.alist.qa.testcases;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 import org.testng.internal.collections.Pair;
 
 import com.alist.qa.base.BaseClass;
@@ -33,8 +35,16 @@ public class UserDetailsTest extends BaseClass{
 		UsrDetailPg = UserManagement.clickOnUser("Test Amyjohnson");
 	}
 	
+	@Test(priority = 1)
+	public void checkFileUploadTest() throws InterruptedException
+	{
+		UsrDetailPg.checkUploadImage();
+	}
 	
 	
-	
-	
+	@AfterClass 
+	public void tearDown()
+	{
+		driver.quit();
+	}
 }
