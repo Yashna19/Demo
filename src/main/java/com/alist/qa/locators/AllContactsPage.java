@@ -28,8 +28,7 @@ public class AllContactsPage extends BaseClass {
 	@FindBy(xpath = "//*[@class = 'ag-header-cell ag-header-cell-sortable']/div/div/span[1]")
 	List<WebElement> columnnames;
 	
-	@FindBy(xpath = "//*[@class = 'ag-header-cell ag-header-cell-sortable']/div/div/span[1]")
-	List<WebElement> columnnames1;
+	
 	
 	
 		public AllContactsPage(WebDriver driver) {

@@ -3,6 +3,7 @@
 <suite name="Alist Test Suite" parallel = "false">
 <listeners>
 <listener class-name = "com.alist.qa.listeners.Listeners"/>
+<listener class-name = "resources.ExtentReporter"/>
 </listeners>
   <test  name="Login Test Cases" >
   <classes>
