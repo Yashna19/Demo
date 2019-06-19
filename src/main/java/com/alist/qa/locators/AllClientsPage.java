@@ -4,10 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class AllClientsPage {
-
-	
-	
-	
 	
 	
 WebDriver driver;
@@ -19,5 +15,8 @@ WebDriver driver;
 		 this.driver = driver;
          PageFactory.initElements(driver, this);
 	}
+	
+	
+	
 	
 }
